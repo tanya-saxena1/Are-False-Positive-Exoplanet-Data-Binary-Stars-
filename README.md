@@ -1,10 +1,12 @@
+## Introduction
+
 This repository contains a comprehensive research project and accompanying implementation that explores the relationship between false positive exoplanet detections and binary star systems using machine learning techniques. The core research question investigates whether false positive exoplanet data actually contains binary star systems. False positives in exoplanet detection waste valuable telescope time and resources, and this study aims to determine what percentage of these false positives can be attributed to eclipsing binary stars.
 
 The project employs a two-stage machine learning approach: first using a K-Nearest Neighbors (KNN) model to identify exoplanets and generate false positive data, then applying a combined Long Short-Term Memory (LSTM) and Convolutional Neural Network (CNN) model to classify binary star systems from these false positives.
 
 The research yielded significant insights into astronomical classification. The KNN model achieved 88% accuracy with an F1 score of 85% for exoplanet detection. When the false positives from this model were analyzed using the LSTM-CNN architecture, approximately 6% were identified as binary star systems, with the binary classification model achieving 80% accuracy. This suggests that while some false positives are indeed binary stars, the majority likely represent other celestial phenomena or detection artifacts.
 
-## Introduction to the Project
+## Overview
 
 False positives in exoplanet detection waste valuable telescope time and resources. Identifying and understanding the sources of these false positives, such as eclipsing binary stars, can lead to improved algorithms and methods, increasing the reliability of future exoplanet discoveries. Additionally, this research enriches our understanding of stellar systems, particularly eclipsing binaries. By distinguishing these systems from genuine exoplanet detections, we can contribute valuable data to stellar astrophysics, facilitating the study of star formation, evolution, and dynamics.
 
